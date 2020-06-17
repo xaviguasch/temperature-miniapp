@@ -27,7 +27,7 @@ body {
 }
 
 .main-display {
-  padding: 2rem;
+  padding: 1rem;
   margin: 2rem;
   min-width: 80%;
   background-color: rgb(163, 192, 192);
@@ -35,30 +35,40 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
+}
+
+.main-display #main-form {
+  min-width: 100%;
+  background-color: yellow;
 }
 
 .main-display #temp-picker {
+  background-color: red;
+  padding: 0;
 }
 
 .main-display #tempSelect,
 .main-display #temperatureInput {
+  margin: 1rem 0;
+  min-width: 100%;
   display: block;
 }
 
 .main-display #temp-picker {
   padding: 1.5rem;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .main-display #temp-input {
+  background-color: green;
   padding: 1.5rem;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .results {
   min-width: 50%;
-
-  background-color: red;
+  background-color: rgb(104, 162, 185);
   display: flex;
   align-items: center;
   flex-direction: column;
