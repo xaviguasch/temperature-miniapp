@@ -7,7 +7,36 @@
     <title>Temperature MiniApp</title>
   </head>
   <body>
-    <h1>Temperature Miniapp</h1>
+    <div class="app">
+      <h1 class="title">Temperature Converter</h1>
+
+      <div class="main-display">
+        <form action="" id="main-form">
+          <div id="temp-picker">
+            <label for="cars">Pick a standard:</label>
+            <select name="tempSelect" id="tempSelect">
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="celsius">Celsius</option>
+            </select>
+          </div>
+
+          <div id="temp-input">
+            <label for="enter-a-temp">Enter a temperature</label>
+            <input
+              name="temperatureInput"
+              id="temperatureInput"
+              class="temperatureInput"
+              type="number"
+            />
+          </div>
+          <button>Convert</button>
+        </form>
+      </div>
+      <div class="results">
+        <p>Degrees</p>
+        <p id="result">0</p>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>

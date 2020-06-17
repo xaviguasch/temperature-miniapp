@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.app {
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.main-display {
+  padding: 2rem;
+  margin: 2rem;
+  min-width: 80%;
+  background-color: rgb(163, 192, 192);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-display #temp-picker {
+}
+
+.main-display #tempSelect,
+.main-display #temperatureInput {
+  display: block;
+}
+
+.main-display #temp-picker {
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.main-display #temp-input {
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.results {
+  min-width: 50%;
+
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
