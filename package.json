@@ -1,0 +1,23 @@
+{
+  "name": "1-temperature-miniapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviguasch/temperature-miniapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaviguasch/temperature-miniapp/issues"
+  },
+  "homepage": "https://github.com/xaviguasch/temperature-miniapp#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
+  }
+}
